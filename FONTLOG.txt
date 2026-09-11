@@ -1,0 +1,56 @@
+FONTLOG for the Eldamar font
+
+This file provides detailed information on the Eldamar Font Software.
+This information should be distributed along with the Eldamar font
+and any derivative works.
+
+
+Basic Font Information
+
+Eldamar is a typeface that supports the writing systems Tengwar, Valmaric, 
+Sarati and the Pre-Feanorian alphabets (Qenyatic, Falassin, Noriac, Banyaric, 
+and Sinyatic), as well as the New English Alphabet, all invented by and 
+described in the works of J.R.R. Tolkien.
+
+The Writing systems of Tolkien are encoded in the Unicode Private Use Area 
+(E000-F8FF). Some supplementary punctuation, required for writing Tengwar, 
+are encoded in the ranges C0 - Controls and Basic Latin, and 
+2E00 - Supplemental Punctuation.
+
+This release contains:
+
+* Eldamar1_1.otf - The font file
+* Eldamar1_1-doc.pdf - The documentation file
+* FONTLOG.txt - This log file
+* OFL.txt - The SIL Open Font License file
+* OFL-FAQ.txt - OFL Frequently Asked Questions
+
+To contribute to the project, contact Måns (Björkman) Berg by email at 
+<mans@boktypografen.se>. Contributions may include 
+
+* Proposing missing characters that should be added to the font,
+* Suggesting OpenType functions to improve the functionality of the font, or
+* Reporting bugs or errors of any kind in the font
+
+
+ChangeLog
+
+
+1 March 2026 (Måns Berg) Eldamar version 1.1
+- Removed <mark> and <mkmk> features for the time being, as they caused erroneous 
+behaviour on many platforms.
+
+3 Jan 2026 (Måns Berg) Eldamar Version 1.0
+- Initial release
+
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), email (E), web-address
+(if you have one) (W) and description (D). This list is in alphabetical order.
+
+N: Måns Berg
+E: mans@boktypografen.se
+W: https://at.boktypografen.se
+D: Creator of Eldamar
+
