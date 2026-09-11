@@ -1,0 +1,22 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Eldamar
+Upstream-Contact: Måns Björkman Berg <mans@boktypografen.se>
+Source: https://at.boktypografen.se
+
+Files: *
+Copyright: 2026 Måns (Björkman) Berg <mans@boktypografen.se>
+License: OFL-1.1
+Comment: with Reserved Font Name "Eldamar".
+
+Files: debian/*
+Copyright: 2026 dscp46 <dscp46@users.noreply.github.com>
+License: OFL-1.1
+
+License: OFL-1.1
+ This Font Software is licensed under the SIL Open Font License, Version 1.1.
+ This license is available with a FAQ at https://openfontlicense.org and the
+ full text is distributed with this package in the file
+ /usr/share/doc/fonts-eldamar/OFL.txt.
+ .
+ On Debian systems the complete text of the SIL Open Font License version 1.1
+ can also be found in "/usr/share/common-licenses/OFL-1.1".

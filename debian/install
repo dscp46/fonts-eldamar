@@ -1,0 +1,6 @@
+Eldamar1_1.otf usr/share/fonts/opentype/eldamar
+Eldamar1_1-doc.pdf usr/share/doc/fonts-eldamar
+FONTLOG.txt usr/share/doc/fonts-eldamar
+OFL-FAQ.txt usr/share/doc/fonts-eldamar
+OFL.txt usr/share/doc/fonts-eldamar
+debian/65-fonts-eldamar.conf etc/fonts/conf.avail

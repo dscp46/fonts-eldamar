@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+# The doc files must remain uncompressed at their exact paths under
+# /usr/share/doc/fonts-eldamar/ as required by the package specification.
+override_dh_compress:
+	dh_compress -X.pdf -XFONTLOG.txt -XOFL-FAQ.txt -XOFL.txt

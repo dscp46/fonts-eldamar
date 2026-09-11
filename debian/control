@@ -1,0 +1,26 @@
+Source: fonts-eldamar
+Section: fonts
+Priority: optional
+Maintainer: dscp46 <celestine+dev@gramaize.eu>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.7.0
+Homepage: https://at.boktypografen.se
+Rules-Requires-Root: no
+
+Package: fonts-eldamar
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: Eldamar font for Tolkien's writing systems (Tengwar, Sarati, etc.)
+ Eldamar is a typeface designed by Måns Björkman Berg supporting the
+ writing systems invented by J.R.R. Tolkien: Tengwar, Valmaric, Sarati
+ and the Pre-Feanorian alphabets (Qenyatic, Falassin, Noriac, Banyaric
+ and Sinyatic), as well as the New English Alphabet.
+ .
+ The writing systems are encoded in the Unicode Private Use Area
+ (U+E000-U+F8FF) following the ConScript Unicode Registry (CSUR)
+ conventions, with supplementary punctuation in the Basic Latin and
+ Supplemental Punctuation ranges.
+ .
+ This package installs the font together with a fontconfig configuration
+ that registers Eldamar as the default family for CSUR Tengwar text.
